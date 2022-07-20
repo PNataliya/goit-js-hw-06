@@ -26,7 +26,7 @@ function getRandomHexColor() {
 }
 
 function changeColor() {
-  console.log(refs.changeColorBtn);
+  //console.log(refs.changeColorBtn);
   refs.body.style.backgroundColor = getRandomHexColor();
   refs.spanArrayColor.textContent = refs.body.style.backgroundColor;
 }
